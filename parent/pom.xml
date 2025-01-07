@@ -63,7 +63,7 @@ Apache Jackrabbit FileVault is a project of the Apache Software Foundation.
         <bnd.version>6.4.0</bnd.version>
         <minimalMavenBuildVersion>3.6.1</minimalMavenBuildVersion><!-- due to https://issues.apache.org/jira/browse/MNG-6059 -->
         <minimalJavaBuildVersion>11</minimalJavaBuildVersion>
-        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.release>11</maven.compiler.release>
         <sling.url>http://localhost:4502</sling.url>
         <jacoco.command /><!-- is overwritten by https://www.eclemma.org/jacoco/trunk/doc/prepare-agent-mojo.html -->
         <project.build.outputTimestamp>2024-09-20T15:33:13Z</project.build.outputTimestamp>
@@ -263,7 +263,7 @@ Bundle-Category: jackrabbit
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.10</version>
+                    <version>0.8.12</version>
                 </plugin>
                 <plugin>
                     <groupId>org.owasp</groupId>
